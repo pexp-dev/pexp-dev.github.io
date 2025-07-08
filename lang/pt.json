@@ -1,1 +1,18 @@
-
+{
+  "projectsTitle": "Projetos em andamento",
+  "footer": "Criado por PEXP. Codado em qualquer lugar.",
+  "projects": {
+    "media-classifier": {
+      "title": "Media Classifier (Python)",
+      "desc": "Script para varrer pastas com imagens, vídeos e sons.",
+      "status": "Em desenvolvimento",
+      "linkText": "Ver repositório"
+    },
+    "freight-estimator": {
+      "title": "Freight Estimator (HTML + JS)",
+      "desc": "Página web que calcula fretes com base em volume e destino.",
+      "status": "Protótipo funcional",
+      "linkText": "Ver repositório"
+    }
+  }
+}
