@@ -1,3 +1,6 @@
+🌍 [English version](README.en.md)
+
+
 # 🧬 PEXP
 
 **Project Experimental by Pirika**
