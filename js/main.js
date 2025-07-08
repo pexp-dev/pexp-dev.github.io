@@ -1,11 +1,11 @@
 const PROJECTS = [
   {
     id: "media-classifier",
-    url: "https://github.com/pexp-dev/media-classifier"
+    url: ""
   },
   {
     id: "freight-estimator",
-    url: "https://github.com/pexp-dev/freight-estimator"
+    url: ""
   }
 ];
 
