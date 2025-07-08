@@ -1,1 +1,18 @@
-
+{
+  "projectsTitle": "Ongoing Projects",
+  "footer": "Created by PEXP. Coded anywhere.",
+  "projects": {
+    "media-classifier": {
+      "title": "Media Classifier (Python)",
+      "desc": "Script to scan folders with images, videos and audio.",
+      "status": "In development",
+      "linkText": "View repository"
+    },
+    "freight-estimator": {
+      "title": "Freight Estimator (HTML + JS)",
+      "desc": "Web page that calculates freight based on volume and destination.",
+      "status": "Functional prototype",
+      "linkText": "View repository"
+    }
+  }
+}
