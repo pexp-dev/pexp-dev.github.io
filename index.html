@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="pt">
 <head>
@@ -43,10 +44,13 @@
       color: var(--muted);
       line-height: 1.3;
     }
-    .lang-selector {
+    .lang-selector select {
+      background: var(--bg);
+      color: var(--fg);
+      border: 1px solid #333;
+      padding: 0.3rem;
+      font-family: inherit;
       font-size: 0.9rem;
-      color: var(--muted);
-      cursor: pointer;
     }
     main {
       padding: 2rem;
@@ -94,7 +98,6 @@
     }
     .footer-links {
       margin-top: 1rem;
-      font-size: 0.85rem;
     }
     .footer-links a {
       margin: 0 0.5rem;
@@ -108,70 +111,36 @@
 </head>
 <body>
 
-  <header>
-    <div class="branding">
-      <img src="assets/PEXP.png" alt="PEXP Logo" />
-      <div>
-        <div class="title">PEXP</div>
-        <div class="subtitle">Project Experimental by Pirika<br>Laboratório pessoal de scripts, ideias soltas e explorações digitais.</div>
-      </div>
+<header>
+  <div class="branding">
+    <img src="assets/PEXP.png" alt="PEXP Logo" />
+    <div>
+      <div class="title">PEXP</div>
+      <div class="subtitle">Project Experimental by Pirika<br>Exploração digital sem mapa.</div>
     </div>
-    <div class="lang-selector">
-      <select onchange="switchLang(this.value)">
-        <option value="pt">PT</option>
-        <option value="en">EN</option>
-      </select>
-    </div>
-  </header>
+  </div>
+  <div class="lang-selector">
+    <select id="langSelect" onchange="switchLang(this.value)">
+      <option value="pt">PT</option>
+      <option value="en">EN</option>
+    </select>
+  </div>
+</header>
 
-  <main>
-    <h2 id="projects-title">Projetos em andamento</h2>
-    <ul class="projects">
-      <li class="project">
-        <strong>Media Classifier (Python)</strong><br />
-        Script para varrer pastas com imagens, vídeos e sons.<br />
-        Classifica como <em>originais</em>, <em>duplicados</em> e <em>dúvidas</em>, e gera um JSON para revisão.<br />
-        <em>Estado:</em> Em desenvolvimento<br />
-        <a href="https://github.com/pexp-dev/media-classifier" target="_blank">Ver repositório</a>
-      </li>
-      <li class="project">
-        <strong>Freight Estimator (HTML + JS)</strong><br />
-        Página web que calcula fretes com base em volume e destino,<br />
-        usando tabelas de transportadoras como base de dados.<br />
-        <em>Estado:</em> Protótipo funcional<br />
-        <a href="https://github.com/pexp-dev/freight-estimator" target="_blank">Ver repositório</a>
-      </li>
-    </ul>
-  </main>
+<main>
+  <h2 id="projects-title">Projetos em andamento</h2>
+  <ul id="project-list" class="projects"></ul>
+</main>
 
-  <footer>
-    Criado por PEXP. Codado em qualquer lugar.
-    <div class="footer-links">
-      <a href="https://github.com/pexp-dev/pexp-dev.github.io/blob/main/README.md" target="_blank">README</a>
-      <a href="https://github.com/pexp-dev/pexp-dev.github.io/blob/main/.gitignore" target="_blank">.gitignore</a>
-      <a href="https://github.com/pexp-dev" target="_blank">GitHub</a>
-    </div>
-  </footer>
+<footer>
+  <div id="footer-text">Criado por PEXP. Codado em qualquer lugar.</div>
+  <div class="footer-links">
+    <a href="https://github.com/pexp-dev/pexp-dev.github.io/blob/main/README.md" target="_blank">README</a>
+    <a href="https://github.com/pexp-dev/pexp-dev.github.io/blob/main/.gitignore" target="_blank">.gitignore</a>
+    <a href="https://github.com/pexp-dev" target="_blank">GitHub</a>
+  </div>
+</footer>
 
-  <script>
-    const langData = {
-      pt: {
-        title: "Projetos em andamento",
-        classifier: "Script para varrer pastas com imagens, vídeos e sons.",
-        estimator: "Página web que calcula fretes com base em volume e destino.",
-      },
-      en: {
-        title: "Ongoing Projects",
-        classifier: "Script to scan folders with images, videos and sounds.",
-        estimator: "Web page that calculates freight based on volume and destination.",
-      }
-    };
-
-    function switchLang(lang) {
-      document.getElementById("projects-title").innerText = langData[lang].title;
-      // expand if you want to localize more fields
-    }
-  </script>
-
+<script src="js/main.js"></script>
 </body>
 </html>
