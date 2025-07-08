@@ -1,4 +1,3 @@
-
 const PROJECTS = [
   {
     id: "media-classifier",
