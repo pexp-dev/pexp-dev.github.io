@@ -16,6 +16,9 @@
     body {
       margin: 0;
       padding: 0;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
       background-color: var(--bg);
       color: var(--fg);
       font-family: 'Courier New', monospace;
@@ -52,9 +55,11 @@
       font-size: 0.9rem;
     }
     main {
+      flex: 1;
       padding: 2rem;
       max-width: 800px;
       margin: 0 auto;
+      width: 100%;
     }
     h2 {
       font-size: 1.2rem;
@@ -89,11 +94,16 @@
       text-decoration: underline;
     }
     footer {
-      margin-top: 4rem;
       padding: 2rem;
       font-size: 0.85rem;
       color: #555;
       text-align: center;
+      background: var(--card-bg);
+      width: 100%;
+      margin-top: auto;
+      position: relative;
+      bottom: 0;
+      left: 0;
     }
     .footer-links {
       margin-top: 1rem;
@@ -132,7 +142,7 @@
 </main>
 
 <footer>
-  <div id="footer-text">Criado por PEXP. Codado em qualquer lugar.</div>
+  <div>Criado por PEXP. Codado em qualquer lugar.</div>
   <div class="footer-links">
     <a href="https://github.com/pexp-dev/pexp-dev.github.io/blob/main/README.md" target="_blank">README</a>
     <a href="https://github.com/pexp-dev/pexp-dev.github.io/blob/main/.gitignore" target="_blank">.gitignore</a>
