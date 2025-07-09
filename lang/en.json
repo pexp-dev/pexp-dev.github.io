@@ -2,7 +2,7 @@
   "title": "Project Experimental by Pirika",
   "projectsTitle": "Ongoing Projects",
   "subtitle": "A personal lab for unfinished ideas, improvised solutions and digital explorations without a map.",
-  "footer": "Created by PEXP. Coded anywhere.",
+  "footer": "",
   "projects": {
     "media-classifier": {
       "title": "Media Classifier (Python)",
