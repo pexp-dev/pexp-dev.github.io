@@ -13,13 +13,13 @@
     "freight-estimator": {
       "title": "Freight Estimator (HTML + JS)",
       "desc": "Web page that calculates freight based on volume and destination.",
-      "status": "Functional prototype",
+      "status": "In development",
       "linkText": "View page"
     },
     "apostas-sc": {
       "title": "Santa Casa Betting System",
       "desc": "PWA with OCR (Gemini) to check Totoloto, Euromilhões, EuroDreams and M1lhão tickets.",
-      "status": "In production",
+      "status": "Functional prototype",
       "linkText": "Open app"
     }
   }
