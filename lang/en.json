@@ -15,6 +15,12 @@
       "desc": "Web page that calculates freight based on volume and destination.",
       "status": "Functional prototype",
       "linkText": "View repository"
+    },
+    "apostas-sc": {
+      "title": "Santa Casa Betting System",
+      "desc": "PWA with OCR (Gemini) to check Totoloto, Euromilhões, EuroDreams and M1lhão tickets.",
+      "status": "In production",
+      "linkText": "Open app"
     }
   }
 }
