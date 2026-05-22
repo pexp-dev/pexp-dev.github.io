@@ -15,6 +15,12 @@
       "desc": "Página web que calcula fretes com base em volume e destino.",
       "status": "Protótipo funcional",
       "linkText": "Ver repositório"
+    },
+    "apostas-sc": {
+      "title": "Sistema de Apostas Santa Casa",
+      "desc": "PWA com OCR (Gemini) para verificar boletins do Totoloto, Euromilhões, EuroDreams e M1lhão.",
+      "status": "Em produção",
+      "linkText": "Aceder à aplicação"
     }
   }
 }
