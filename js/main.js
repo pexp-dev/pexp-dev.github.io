@@ -5,7 +5,7 @@ const PROJECTS = [
   },
   {
     id: "freight-estimator",
-    url: ""
+    url: "https://hmdfurniture.github.io/Calculo/main.html"
   },
   {
     id: "apostas-sc",        // <-- NOVO
