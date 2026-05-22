@@ -6,6 +6,10 @@ const PROJECTS = [
   {
     id: "freight-estimator",
     url: ""
+  },
+  {
+    id: "apostas-sc",        // <-- NOVO
+    url: "https://hmdgt.github.io/Tol_v2/"
   }
 ];
 
